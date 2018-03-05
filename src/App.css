@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Nav{
+  height: 50px;
+  width:100%;
+  background-color: #003D5A;
+  font-family: OpenSans,Helvetica;
+  color:white;
+  line-height: 1.15;
+  font-size:15px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  
+}
+.navItem{
+  margin-top:15px;
+  margin-left:60px;
+}
+
+.Dashboard{
+  height:200px;
+  width:100%;
+  
+}
+.dateField{
+  height: 35px;
+  width:250px;
+  font-size: 30px;
+  font-weight:lighter;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.formField{
+  height: 35px;
+  width:170px;
+  font-size: 30px;
+  font-weight:lighter;
+  margin-left: 20px;
+  margin-top: 25px;
+
+}
+.roundFormField{
+  height: 55px;
+  width:200px;
+  font-size: 30px;
+  font-weight:lighter;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+.btn_train{
+color: white;
+background-color:#548300;
+width: 170px;
+height: 50px;
+margin-top:25px;
+margin-left:10px;
+}
+.btn_train:hover{
+  background-color:#78993a;
+}
+.searchResult{
+  height:100%;
+  width:100%;
+  background-color:	#2d8c9e;
+  margin-top:30px;
+  
+ 
+ 
+}
+.layer1{
+  height:30px; 
+}
+.res_tab{
+  height:50px;
+  width:400px;
+  border: 1px solid rgb(163, 159, 159);
+  color:rgb(252, 246, 246);
+  padding-top: 10px;
+  padding-left:40px;
+  font-size: 15px;
+  font-family: "Helvetica Neue","Helvetica","Arial","sans-serif";
+}
+.lap{
+  height:80%;
+  width:100%;
+  margin-top:21px;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #006189 , #002940); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #006189 , #002940); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #006189 , #002940); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #006189 , #002940);
+}
+.selectField{
+  height: 25px;
+  width:120px;
+  font-size: 20px;
+  font-weight:lighter;
+ margin-left:20px;
+  margin-top: 25px;
+}
+.checks {
+
+  height:20px;
+  width:50px;
+  background-color:#d9dbe2;
+
+}
+
+.layer2{
+  margin-top:20px;
+}
+.fieldLabel{
+  font-size:25px
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
